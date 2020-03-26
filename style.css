@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Computer Modern";
+    src: url(cmunrm-webfont.woff);
+}
+
+
+* {
+    font-family: "Computer Modern";
+    font-size: 13px;
+    line-height: 1.2em;
+}
+
+.main {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+@media print {
+    .main{
+    width: 100%;
+    
+    }
+}
+.name {
+    font-size: 22px;
+}
+
+.link {
+    text-decoration: none;
+    color: darkblue;
+}
+.contact-info__item {
+    font-weight: normal;
+}
+
+.contacts {
+    border-bottom: 1px solid gray;
+}
+.part__header {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin: 0;
+}
+
+.column__content p {
+text-indent: 15px;
+margin: 0;
+
+}
+.column__content_left {
+    margin-right: 10px;
+    max-width: 50%;
+}
+.column__content_right {
+    margin-left: 10px;
+
+}
+
+.paragraph {
+    margin-bottom: 5px;
+}
+.paragraph__content {
+    margin-left: 45px;
+    text-align: justify;
+}
+
+.info1 {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info2 {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__position {
+    font-weight: bold;
+}
+.info__dates {
+    font-family: "Computer Modern";
+    font-style: italic;
+}
+
